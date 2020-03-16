@@ -1,9 +1,13 @@
 # My config & dotfiles
 For my setup I use a variety of tools.
 
-### iTerm
+### Brew
+
+### Vi
 
 ### VSCode
+
+### iTerm
 
 ### ZSH
 
