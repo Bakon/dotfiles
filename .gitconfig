@@ -1,0 +1,5 @@
+[user]
+	email = julio.schilders@gmail.com
+	name = Julicolo
+[core]
+	excludesfile = /Users/jules/.gitignore

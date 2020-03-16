@@ -5,6 +5,7 @@
 # ! creates the opposite of ignore
 !README.md
 !.gitignore
+!.gitconfig
 !.p10k.zsh
 !.zshrc
 !.vscode/
