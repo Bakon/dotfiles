@@ -1,0 +1,9 @@
+# Ignore all but files below
+/*
+
+# ! creates the opposite of ignore
+!README.md
+!.gitignore
+!.p10k.zsh
+!.zshrc
+!.vscode/
