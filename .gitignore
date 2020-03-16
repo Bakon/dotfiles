@@ -1,5 +1,6 @@
-# Ignore all but files below
+# Ignore all files by default
 /*
+/*/.DS_Store
 
 # ! creates the opposite of ignore
 !README.md
@@ -7,3 +8,4 @@
 !.p10k.zsh
 !.zshrc
 !.vscode/
+.vscode/extensions/
