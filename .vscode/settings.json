@@ -1,36 +1,91 @@
 {
-    "window.zoomLevel": 2,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "files.exclude": {
+        ".next": true,
+        "fp.dashboard.js": true,
+        "fp.dashboard.js.map": true,
+        "node_modules": true
+    },
+    "sass.format.enabled": false,
+    "javascript.validate.enable": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "python.formatting.provider": "none",
+    "python.pythonPath": "/usr/local/opt/python/bin/python3.7",
+    "python.linting.pylintEnabled": false,
+    "python.autoComplete.addBrackets": true,
+    "python.linting.enabled": false,
+    "[python]": {
+        "editor.formatOnSave": false
+    },
+    // "[sass]": {
+    //     "editor.formatOnSave": false
+    // },
+    // "[scss]": {
+    //     "editor.formatOnSave": false
+    // },
+    // "[javascript]": {
+    //     "editor.formatOnSave": false
+    // },
+    // "[javascriptreact]": {
+    //     "editor.formatOnSave": false
+    // },
+    "[typescript]": {
+        "editor.formatOnSave": false
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "terminal.integrated.fontFamily": "MesloLGS NF",
+    "git.enabled": false,
+    "window.zoomLevel": 2,
+    "explorer.confirmDelete": false,
+    "editor.useTabStops": false,
+    "editor.minimap.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "workbench.colorCustomizations": {
         "activityBarBadge.background": "#5C6BC0",
         "activityBar.activeBorder": "#5C6BC0",
+        "breadcrumb.activeSelectionForeground": "#5C6BC0",
         "list.activeSelectionForeground": "#5C6BC0",
         "list.inactiveSelectionForeground": "#5C6BC0",
         "list.highlightForeground": "#5C6BC0",
-        "scrollbarSlider.activeBackground": "#5C6BC050",
-        "editorSuggestWidget.highlightForeground": "#5C6BC0",
         "textLink.foreground": "#5C6BC0",
         "progressBar.background": "#5C6BC0",
         "pickerGroup.foreground": "#5C6BC0",
         "tab.activeBorder": "#5C6BC0",
-        "notificationLink.foreground": "#5C6BC0",
+        "editorSuggestWidget.highlightForeground": "#5C6BC0",
         "editorWidget.resizeBorder": "#5C6BC0",
         "editorWidget.border": "#5C6BC0",
+        "editor.findMatchBorder": "#5C6BC0",
         "settings.modifiedItemIndicator": "#5C6BC0",
         "settings.headerForeground": "#5C6BC0",
+        "scrollbarSlider.activeBackground": "#5C6BC050",
+        "selection.background": "#5C6BC040",
         "panelTitle.activeBorder": "#5C6BC0",
-        "breadcrumb.activeSelectionForeground": "#5C6BC0",
         "menu.selectionForeground": "#5C6BC0",
         "menubar.selectionForeground": "#5C6BC0",
-        "editor.findMatchBorder": "#5C6BC0",
-        "selection.background": "#5C6BC040"
+        "notificationLink.foreground": "#5C6BC0"
     },
-    "materialTheme.accent": "Indigo",
-    "git.enabled": false,
-    "javascript.validate.enable": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "explorer.confirmDelete": false,
-    "editor.useTabStops": false
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "html.format.enable": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.lightbulb.enabled": false,
+    "search.useIgnoreFiles": true
 }

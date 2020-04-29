@@ -1,12 +1,4 @@
-# Ignore all files by default
-/*
-/*/.DS_Store
-
-# ! creates the opposite of ignore
-!README.md
-!.gitignore
-!.gitconfig
-!.p10k.zsh
-!.zshrc
-!.vscode/
-.vscode/extensions/
+.DS_Store
+coc/
+configstore/
+nvim/.netrwhist

@@ -1,9 +1,10 @@
 # My config & dotfiles
+
 For my setup I use a variety of tools.
 
 ### Brew
 
-### Vi
+### NVIM
 
 ### VSCode
 
